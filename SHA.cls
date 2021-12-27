@@ -9,9 +9,10 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
 
-'SHA-1 algorithm for VBA by Crix
-'based on Federal Information Processing Standard (FIPS) 180-4
-'2021-10-28 ~ 2021-12-27
+' SHA-1 & 256 algorithm for VBA by Crix
+' based on Federal Information Processing Standard (FIPS) 180-4
+' import to class module to use
+' 2021-10-28 ~ 2021-12-27
 
 Private BLOCK_LENGTH As Integer  '64 bytes = 512 bits
 
